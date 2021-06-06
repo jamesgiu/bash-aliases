@@ -1,6 +1,6 @@
 alias ls='ls -lahF --color'
 alias cd=cdTree $1
-alias pls='sudo $(history -p !!)'
+alias pls='sudo $(\history -p !!)'
 alias ss=ezSed $1 $2 $3
 alias ..='cd ..'
 alias -- -='cd -'
